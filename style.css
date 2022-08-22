@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 450px;
+    height: 80vh;
+    background: #1B244A;
+    margin: auto;
+    
+}
+
+h3 {
+    font-weight: 700;
+    color: #fff;
+    font-size: 40px;
+}
+
+.backGround {
+    width: 160px;
+    background: #080001;
+    border-radius: 5px;
+}
+
+#homeScore, #guestScore {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 90px;
+    text-align: center;
+    color: #F94F6D;
+    margin-top: 0;
+    margin-bottom: 50px;
+    
+
+}
+
+.add-points-btn {
+    width: 160px;
+}
+
+#plus-point-one-home, 
+#plus-point-two-home,
+#plus-point-three-home,
+#plus-point-one-guest,
+#plus-point-two-guest,
+#plus-point-three-guest {
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    font-family: "Poppins";
+    color: #9AABD8;
+    margin-top: 0;
+    margin-bottom: 160px;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+

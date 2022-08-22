@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="home">
+            <h3>HOME</h3>
+            <div class="backGround">
+                <h5 id="homeScore">0</h5>
+            </div>
+            <div class="add-points-btn">
+                <button onclick="addOneHome()" id="plus-point-one-home">+1</button>
+                <button onclick="addTwoHome()"   id="plus-point-two-home">+2</button>
+                <button onclick="addThreeHome()" id="plus-point-three-home">+3</button>
+            </div>
+        </div>
+        <div class="guest">
+            <h3>GUEST</h3>
+            <div class="backGround">
+                <h5 id="guestScore">0</h5>
+            </div>
+            <div class="add-points-btn">
+                <button onclick="addOneGuest()" id="plus-point-one-guest">+1</button>
+                <button onclick="addTwoGuest()" id="plus-point-two-guest">+2</button>
+                <button onclick="addThreeGuest()" id="plus-point-three-guest">+3</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
